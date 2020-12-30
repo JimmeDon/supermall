@@ -1,18 +1,23 @@
 <template>
   <div id="app">
-
+  <keep-alive exclude = "Detail">
+    <router-view/>
+  </keep-alive>
+  <main-tab-bar/>
   </div>
 </template>
 
 <script>
+  import MainTabBar from 'components/content/MainTabBar/MainTabBar'
+
   export default {
-    name: 'HelloWorld',
-    props: {
-      msg: String
+    name: 'app',
+    components:{
+      MainTabBar
     }
   }
 </script>
 
 <style>
-
+  @import "./assets/CSS/base.css";
 </style>
