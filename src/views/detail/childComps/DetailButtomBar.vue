@@ -85,6 +85,7 @@
     width: 60%;
     display: flex;
     text-align: center;
+    color: #fff;
   }
   .rightitem {
     flex: auto;

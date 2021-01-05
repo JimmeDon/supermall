@@ -3,7 +3,6 @@
     <cart-nav-bar></cart-nav-bar>
     <cart-content></cart-content>
     <cart-but-bar></cart-but-bar>
-
   </div>
 </template>
 

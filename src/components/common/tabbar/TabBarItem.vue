@@ -51,9 +51,9 @@
   }
 
   .tab-bar-item img {
-    width: 24px;
-    height: 24px;
-    top: 3px;
+    width: 22px;
+    height: 22px;
+    margin-top: 5px;
     vertical-align: middle;
     margin-bottom: 2px;
   }

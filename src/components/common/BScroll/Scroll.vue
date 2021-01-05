@@ -31,7 +31,10 @@
         observeDOM: true,
         click:true,
         probeType:this.probeType,
-        pullUpLoad: this.pullUpLoad
+        pullUpLoad: this.pullUpLoad,
+        /*mouseWheel: true,//开启鼠标滚轮*/
+        disableMouse: false,//启用鼠标拖动
+        disableTouch: false//启用手指触摸
       })
       //2. 监听混动位置
       if(this.probeType === 2 || this.probeType === 3) {

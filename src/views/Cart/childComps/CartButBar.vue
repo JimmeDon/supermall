@@ -73,22 +73,24 @@
 <style scoped>
   .CartButBar{
     position: relative;
-    bottom: 30px;
+    bottom: 48px;
     z-index: 9;
-    height: 30px;
+    height: 40px;
     background-color: #fff;
   }
   .left{
-    height: 30px;
+    height: 40px;
     width: 70px;
     /*background-color: goldenrod;*/
   }
   .allcheck{
     position: absolute;
-    left: 5px;
-    top: 5px;
+/*    left: 5px;
+    top: 5px;*/
     display: flex;
-    align-items: center;
+    top: 10px;
+    left: 3px;
+
     justify-content: center;
 
 /*    width: 16px;
@@ -107,16 +109,17 @@
   .right{
 
     background-color: #ff1d0f;
-    width: 110px;
-    height: 30px;
+    width: 90px;
+    height: 40px;
     border: 1px solid red;
     border-radius:2em;
     color: white;
   }
 
   .text{
+    font-size: 11px;
     text-align: center;
-    height: 30px;
-    line-height: 30px;
+    height: 40px;
+    line-height: 40px;
   }
 </style>

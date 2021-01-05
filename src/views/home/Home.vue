@@ -12,7 +12,6 @@
             :probe-type = '3'
             :pull-up-load = 'true'
             @pullingUp = "loadmore()"
-
     >
       <home-swiper class="home-swi"
                    :banners="banners"
@@ -123,7 +122,7 @@
       //事件监听相关
       tabClick(index){
 /*        this.currentType = Object.keys(this.goods)[index]*/
-        console.log(index);
+        /*console.log(index);*/
         switch (index) {
           case 0:
             this.currentType = 'pop';
